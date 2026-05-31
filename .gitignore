@@ -1,0 +1,22 @@
+node_modules
+.next
+.vercel
+.wrangler
+.env
+.env.local
+*.log
+.DS_Store
+.dev.vars
+
+# 临时构建/调试产物
+.shim
+.xdg
+*_build*.txt
+nop_build.txt
+build_full.txt
+step_*.txt
+next_build.txt
+deploy_check.txt
+check_out.txt
+build-cf.sh
+build-deploy.ps1

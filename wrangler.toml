@@ -1,0 +1,9 @@
+name = "nexshore-website"
+compatibility_date = "2024-07-25"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nexshore-db"
+database_id = "6cdd59fe-b8d4-4d28-8397-b0d79b7000cf"
