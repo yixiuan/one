@@ -8,6 +8,7 @@ import {
   Newspaper,
   FileText,
   Search,
+  Users,
   LogOut,
   ExternalLink,
 } from "lucide-react";
@@ -18,6 +19,7 @@ const navItems = [
   { href: "/admin/news", label: "News", icon: Newspaper },
   { href: "/admin/content", label: "Content (CMS)", icon: FileText },
   { href: "/admin/seo", label: "SEO Settings", icon: Search },
+  { href: "/admin/accounts", label: "账号管理", icon: Users },
 ];
 
 export default function AdminSidebar() {

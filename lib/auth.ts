@@ -62,4 +62,10 @@ export async function isAuthenticated(): Promise<boolean> {
   return username !== null;
 }
 
+export async function getCurrentUsername(): Promise<string | null> {
+  const token = await getSessionCookie();
+  if (!token) return null;
+  return verifySessionToken(token);
+}
+
 export { SESSION_COOKIE };
