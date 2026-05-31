@@ -6,4 +6,4 @@ pages_build_output_dir = ".vercel/output/static"
 [[d1_databases]]
 binding = "DB"
 database_name = "nexshore-db"
-database_id = "6cdd59fe-b8d4-4d28-8397-b0d79b7000cf"
+database_id = "615d78af-64a4-4803-a857-3306547396bc"
