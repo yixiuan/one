@@ -20,3 +20,4 @@ deploy_check.txt
 check_out.txt
 build-cf.sh
 build-deploy.ps1
+tsconfig.tsbuildinfo
