@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npx @cloudflare/next-on-pages@1",
+    "next:build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "pages:build": "npx @cloudflare/next-on-pages",
+    "pages:build": "npx @cloudflare/next-on-pages@1",
     "pages:deploy": "npm run pages:build && wrangler pages deploy .vercel/output/static",
     "db:migrate:local": "wrangler d1 execute nexshore-db --local --file=./migrations/0001_init.sql",
     "db:migrate:remote": "wrangler d1 execute nexshore-db --remote --file=./migrations/0001_init.sql"
